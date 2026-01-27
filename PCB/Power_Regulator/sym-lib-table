@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS55340RTER")(type "KiCad")(uri "${KIPRJMOD}/TPS55340RTER/2026-01-22_04-26-39.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS61033DRLR")(type "KiCad")(uri "${KIPRJMOD}/TPS61033DRLR/2026-01-26_23-24-00.kicad_sym")(options "")(descr ""))
+)
