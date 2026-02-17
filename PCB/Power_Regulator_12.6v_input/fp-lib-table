@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS55340RTER")(type "KiCad")(uri "${KIPRJMOD}/TPS55340RTER/footprints.pretty")(options "")(descr ""))
+  (lib (name "TPS54JA20RWWR")(type "KiCad")(uri "${KIPRJMOD}/TPS54JA20RWWR/footprints.pretty")(options "")(descr ""))
+  (lib (name "B540C-13-F")(type "KiCad")(uri "${KIPRJMOD}/B540C-13-F/footprints.pretty")(options "")(descr ""))
+)
