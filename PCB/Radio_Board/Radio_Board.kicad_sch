@@ -2622,7 +2622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SE2-30:SE2-30"
+		(property "Footprint" "SE2-30_Footprint:SE2-30"
 			(at 162.56 58.42 0)
 			(effects
 				(font
