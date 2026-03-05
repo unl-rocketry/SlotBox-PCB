@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/LIBS/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "SD")(type "KiCad")(uri "${KIPRJMOD}/LIBS/SD")(options "")(descr ""))
+  (lib (name "SE2-30")(type "KiCad")(uri "${KIPRJMOD}/../SE2-30/SE2-30.pretty")(options "")(descr ""))
+  (lib (name "SI-46001-F")(type "KiCad")(uri "C:/Users/gaelp/OneDrive/Documents/Aerospace/Rocketry/SlotBox/SlotBox-PCB/PCB/Compute_Module/CM4_Small breakout/SI-46001-F/footprints.pretty")(options "")(descr ""))
+)
