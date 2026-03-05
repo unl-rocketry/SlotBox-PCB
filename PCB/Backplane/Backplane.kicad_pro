@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Power_Regulator_12.6v_input.kicad_pro",
+    "filename": "Backplane.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -597,14 +597,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -619,7 +611,7 @@
   },
   "sheets": [
     [
-      "3e19382a-168a-41e3-8127-b0b5a7558ca8",
+      "f62770e0-9020-4f7c-9e6d-0f35306c6b47",
       "Root"
     ]
   ],

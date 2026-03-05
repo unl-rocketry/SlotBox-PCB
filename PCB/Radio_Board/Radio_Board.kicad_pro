@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 7.0,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Power_Regulator_12.6v_input.kicad_pro",
+    "filename": "Radio_Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -597,14 +597,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -619,7 +611,7 @@
   },
   "sheets": [
     [
-      "3e19382a-168a-41e3-8127-b0b5a7558ca8",
+      "a413d58d-b9bf-4f0f-a8b3-75c330daf0fc",
       "Root"
     ]
   ],
