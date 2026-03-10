@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "text_on_edge_cuts|184275000|124315000|2a5b2532-d104-4646-8880-bf6a0070ccfc|00000000-0000-0000-0000-000000000000",
-          "part of footprint"
-        ],
-        [
-          "text_on_edge_cuts|94275000|124315000|b9c0737a-b05a-4cdb-a02c-d765e8ef5879|00000000-0000-0000-0000-000000000000",
-          "part of footprint"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
