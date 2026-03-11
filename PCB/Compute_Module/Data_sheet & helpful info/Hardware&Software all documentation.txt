@@ -1,3 +1,0 @@
-Here is the official documentation for all boards hardware + software
-
-https://www.raspberrypi.com/documentation/computers/compute-module.html
