@@ -3353,6 +3353,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT_321"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_321"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_321_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_321_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS54JA20RWWR:TPS54JA20RWWR"
 			(pin_names
 				(offset 0.254)
@@ -5572,6 +5748,10 @@
 		(color 0 0 0 0)
 		(uuid "feeabe48-bd54-4930-bd8c-d30a603a9778")
 	)
+	(no_connect
+		(at 270.51 29.21)
+		(uuid "cffc727e-fccf-40c0-8523-47968c032e3c")
+	)
 	(wire
 		(pts
 			(xy 59.69 127) (xy 58.42 127)
@@ -5951,6 +6131,16 @@
 			(type default)
 		)
 		(uuid "2a0e6522-1490-4755-8f6a-25ea70c4a594")
+	)
+	(wire
+		(pts
+			(xy 254 26.67) (xy 260.35 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd1e706-c5b4-4e9b-b56c-43acba6dd25f")
 	)
 	(wire
 		(pts
@@ -6511,6 +6701,16 @@
 			(type default)
 		)
 		(uuid "85e1f99b-b097-4417-8992-f5b8246e3e07")
+	)
+	(wire
+		(pts
+			(xy 270.51 24.13) (xy 271.78 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860a97da-d755-49f2-994e-bff65b73b8f2")
 	)
 	(wire
 		(pts
@@ -7264,7 +7464,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 71.12) (xy 273.05 69.85)
+			(xy 273.05 77.47) (xy 273.05 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7724,7 +7924,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 45.72) (xy 273.05 46.99)
+			(xy 273.05 39.37) (xy 273.05 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7762,6 +7962,16 @@
 		)
 		(uuid "0187eb5d-1b7c-403e-a796-248634d9ac64")
 	)
+	(label "switch"
+		(at 254 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23d12cfa-0ff5-4094-868f-67cc9c6b696f")
+	)
 	(label "24V_EN"
 		(at 17.78 184.15 0)
 		(effects
@@ -7772,6 +7982,16 @@
 		)
 		(uuid "27fbc0b7-a3a9-4eaa-b8f9-a0124c96ec9b")
 	)
+	(label "switch"
+		(at 273.05 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38cc1d0e-c5f5-4c4a-a208-5b602c8e137d")
+	)
 	(label "24V_RAW"
 		(at 73.66 189.23 180)
 		(effects
@@ -7781,6 +8001,16 @@
 			(justify right bottom)
 		)
 		(uuid "601ec4a2-6d0c-4f6c-a115-4581522ee536")
+	)
+	(label "switch"
+		(at 273.05 39.37 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c1b2886-5a0e-4eeb-96c9-48cf8796f8ed")
 	)
 	(label "24V_EN"
 		(at 241.3 77.47 90)
@@ -10588,72 +10818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 273.05 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d7698e1-631c-4e7e-b073-2fa9454630ea")
-		(property "Reference" "#PWR05"
-			(at 273.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 273.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 273.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e914d33-7103-4e51-add1-5de40524e1ad")
-		)
-		(instances
-			(project ""
-				(path "/3e19382a-168a-41e3-8127-b0b5a7558ca8"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SE2-30:SE2-30")
 		(at 242.57 48.26 0)
 		(unit 1)
@@ -13063,6 +13227,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 271.78 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9741fd15-55f1-4c7d-a41f-da0a7ef39518")
+		(property "Reference" "#PWR05"
+			(at 267.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 275.59 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 271.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "624b3282-81e4-4a62-8b96-1738fbb38f4a")
+		)
+		(instances
+			(project ""
+				(path "/3e19382a-168a-41e3-8127-b0b5a7558ca8"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay_SolidState:TLP3542")
 		(at 52.07 186.69 0)
 		(unit 1)
@@ -13201,6 +13432,77 @@
 			(project "Power_Regulator_12.6v_input"
 				(path "/3e19382a-168a-41e3-8127-b0b5a7558ca8"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_321")
+		(at 265.43 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b944f62-d746-4237-a495-aac0c5621a66")
+		(property "Reference" "SW1"
+			(at 265.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_321"
+			(at 265.43 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SS-5:SS-5"
+			(at 265.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d400f7cc-8f58-412f-964e-4ea8677937a0")
+		)
+		(pin "1"
+			(uuid "7b0a0f35-9226-4884-b16f-b1c1916e4dc3")
+		)
+		(pin "3"
+			(uuid "5ff330f0-c566-487c-97e5-d02d0d342fd6")
+		)
+		(instances
+			(project ""
+				(path "/3e19382a-168a-41e3-8127-b0b5a7558ca8"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -13370,7 +13672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "XT-Conn:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 105.41 184.404 0)
 			(effects
 				(font
@@ -14749,72 +15051,6 @@
 			(project ""
 				(path "/3e19382a-168a-41e3-8127-b0b5a7558ca8"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 273.05 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc77ef09-d60e-40ff-bf63-7119dcba3f69")
-		(property "Reference" "#PWR06"
-			(at 273.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 273.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 273.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "047c1eea-3fd9-4aa9-a711-5e1e8401cd1a")
-		)
-		(instances
-			(project "Power_Regulator_12.6v_input"
-				(path "/3e19382a-168a-41e3-8127-b0b5a7558ca8"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
