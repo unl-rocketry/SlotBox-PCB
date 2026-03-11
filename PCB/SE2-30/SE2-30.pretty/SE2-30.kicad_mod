@@ -1115,8 +1115,8 @@
 		(uuid "a3b04fe7-0fdb-458f-b5c2-00308f91fc54")
 	)
 	(fp_line
-		(start -45 3.49)
-		(end -45 86)
+		(start -45 4.500001)
+		(end -45 85)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1125,8 +1125,8 @@
 		(uuid "22108b21-dbe9-414e-8c17-e616be55db43")
 	)
 	(fp_line
-		(start -45 86)
-		(end 45 86)
+		(start -44 86)
+		(end 44 86)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1146,7 +1146,7 @@
 	)
 	(fp_line
 		(start -39.37 3.49)
-		(end -45 3.49)
+		(end -44 3.500002)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1176,7 +1176,7 @@
 	)
 	(fp_line
 		(start 39.37 3.49)
-		(end 45 3.49)
+		(end 44 3.49)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1185,14 +1185,86 @@
 		(uuid "8394f2a4-224d-4e78-babe-8505a2d37025")
 	)
 	(fp_line
-		(start 45 3.49)
-		(end 45 86)
+		(start 45 4.49)
+		(end 45 85)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "bc94fd76-4bdc-4f14-9c35-9703143763ef")
+	)
+	(fp_arc
+		(start -45 4.500001)
+		(mid -44.707107 3.792894)
+		(end -44 3.500001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db8d8beb-7b4f-427b-89b4-17f1ddb985b0")
+	)
+	(fp_arc
+		(start -44 86)
+		(mid -44.707107 85.707107)
+		(end -45 85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1690f92-cdcc-4338-90a4-345e99801a26")
+	)
+	(fp_arc
+		(start 44 3.49)
+		(mid 44.707107 3.782893)
+		(end 45 4.49)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a29a283e-c4ff-49bb-a0df-e03c5e1143aa")
+	)
+	(fp_arc
+		(start 45 85)
+		(mid 44.707107 85.707107)
+		(end 44 86)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6906aca5-b31a-4803-bf14-454a33438021")
+	)
+	(fp_text user "TOP"
+		(at -44 85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c85de412-3693-479d-a140-cd197ebb6bb1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BOTTOM"
+		(at -44 85 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "25034706-5713-4a14-a735-eaef2d91642a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1 0)
@@ -3119,7 +3191,8 @@
 	(group ""
 		(uuid "b97e20fd-89b2-4921-8871-afbd6e43c3f6")
 		(members "22108b21-dbe9-414e-8c17-e616be55db43" "6306edd9-9265-403f-b1fc-05f20cd062ce"
-			"bc94fd76-4bdc-4f14-9c35-9703143763ef"
+			"6906aca5-b31a-4803-bf14-454a33438021" "bc94fd76-4bdc-4f14-9c35-9703143763ef"
+			"db8d8beb-7b4f-427b-89b4-17f1ddb985b0" "e1690f92-cdcc-4338-90a4-345e99801a26"
 		)
 	)
 	(embedded_fonts no)
