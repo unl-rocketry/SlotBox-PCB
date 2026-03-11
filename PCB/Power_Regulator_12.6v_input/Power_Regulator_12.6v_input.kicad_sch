@@ -13463,7 +13463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SS-5:SS-5"
 			(at 265.43 36.83 0)
 			(effects
 				(font
@@ -13672,7 +13672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "XT-Conn:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 105.41 184.404 0)
 			(effects
 				(font
