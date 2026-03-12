@@ -1116,7 +1116,7 @@
 	)
 	(fp_line
 		(start -45 4.5)
-		(end -45 80.01)
+		(end -45 78.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -1125,8 +1125,8 @@
 		(uuid "0b69ef2e-a78b-4bb1-8b00-904367e3b8ab")
 	)
 	(fp_line
-		(start -44 81)
-		(end 44 81)
+		(start -44 79.5)
+		(end 44 79.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1186,7 +1186,7 @@
 	)
 	(fp_line
 		(start 45 4.49)
-		(end 45 80)
+		(end 45 78.49)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -1206,9 +1206,9 @@
 		(uuid "db8d8beb-7b4f-427b-89b4-17f1ddb985b0")
 	)
 	(fp_arc
-		(start -44 81)
-		(mid -44.707107 80.707107)
-		(end -45 80)
+		(start -44 79.5)
+		(mid -44.707107 79.207107)
+		(end -45 78.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1228,9 +1228,9 @@
 		(uuid "a29a283e-c4ff-49bb-a0df-e03c5e1143aa")
 	)
 	(fp_arc
-		(start 45 80)
-		(mid 44.707107 80.707107)
-		(end 44 81)
+		(start 45 78.5)
+		(mid 44.707107 79.207107)
+		(end 44 79.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1239,7 +1239,7 @@
 		(uuid "6906aca5-b31a-4803-bf14-454a33438021")
 	)
 	(fp_text user "TOP"
-		(at -44 80 0)
+		(at -44 78.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c85de412-3693-479d-a140-cd197ebb6bb1")
@@ -1253,7 +1253,7 @@
 		)
 	)
 	(fp_text user "BOTTOM"
-		(at -44 80 0)
+		(at -44 78.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "25034706-5713-4a14-a735-eaef2d91642a")
