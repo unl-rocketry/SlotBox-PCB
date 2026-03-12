@@ -1186,7 +1186,7 @@
 	)
 	(fp_line
 		(start 45 4.49)
-		(end 45 78.49)
+		(end 45 78.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -2651,7 +2651,7 @@
 		(layer "Cmts.User")
 		(uuid "320ccb31-db1b-4481-a420-3b8a221de770")
 		(pts
-			(xy 50 81.5) (xy 49.707107 -4)
+			(xy 50 79.5) (xy 49.707107 -4)
 		)
 		(height 11.5)
 		(orientation 1)
@@ -2672,8 +2672,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "85.5"
-			(at 60.35 38.75 90)
+		(gr_text "83.5"
+			(at 60.35 37.75 90)
 			(layer "Cmts.User")
 			(uuid "320ccb31-db1b-4481-a420-3b8a221de770")
 			(effects
@@ -2727,7 +2727,7 @@
 		(layer "Cmts.User")
 		(uuid "5f0c4b3c-831c-4146-ae0a-7bdb67b17a64")
 		(pts
-			(xy -45 81) (xy 45 81)
+			(xy -45 79.5) (xy 45 79.5)
 		)
 		(height 12)
 		(orientation 0)
@@ -2749,7 +2749,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "90"
-			(at 0 91.85 0)
+			(at 0 90.35 0)
 			(layer "Cmts.User")
 			(uuid "5f0c4b3c-831c-4146-ae0a-7bdb67b17a64")
 			(effects
@@ -2765,7 +2765,7 @@
 		(layer "Cmts.User")
 		(uuid "9aca9b49-a2fe-4c3e-a257-14fb1c5ca132")
 		(pts
-			(xy 45 81.5) (xy 44.707107 3.5)
+			(xy 45 79.5) (xy 44.707107 3.5)
 		)
 		(height 11.5)
 		(orientation 1)
@@ -2786,8 +2786,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "78"
-			(at 55.35 42.5 90)
+		(gr_text "76"
+			(at 55.35 41.5 90)
 			(layer "Cmts.User")
 			(uuid "9aca9b49-a2fe-4c3e-a257-14fb1c5ca132")
 			(effects
