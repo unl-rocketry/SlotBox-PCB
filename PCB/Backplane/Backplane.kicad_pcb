@@ -13867,6 +13867,71 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TOP"
+		(at 227.1 90.1 0)
+		(layer "F.SilkS")
+		(uuid "08d5e3c6-1ccb-489d-90f4-376b1392ccbe")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "TOP"
+		(at 227.1 226.1 0)
+		(layer "F.SilkS")
+		(uuid "0c3d9b2a-6397-45be-8b81-08cece5d1f77")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "BOTTOM"
+		(at 227.1 34.6 0)
+		(layer "F.SilkS")
+		(uuid "0e8a5b5b-aa86-439b-a0fe-c1b3f0c45454")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "BOTTOM"
+		(at 227.1 204.6 0)
+		(layer "F.SilkS")
+		(uuid "0e982222-b896-47d7-90a6-d571ae4b99cb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "TOP"
+		(at 227.1 192.1 0)
+		(layer "F.SilkS")
+		(uuid "18703241-6a51-44d1-b795-f2349350098e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
 	(gr_text "Connector 4"
 		(at 144.5 136.5 0)
 		(layer "F.SilkS")
@@ -13878,6 +13943,19 @@
 				(bold yes)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "BOTTOM"
+		(at 227.1 136.6 0)
+		(layer "F.SilkS")
+		(uuid "48396cc1-6318-4478-a187-a34ad4a4efd4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
 		)
 	)
 	(gr_text "Connector 5"
@@ -13893,6 +13971,19 @@
 			(justify left top)
 		)
 	)
+	(gr_text "BOTTOM"
+		(at 227.1 68.6 0)
+		(layer "F.SilkS")
+		(uuid "5891c93f-904c-494f-be69-f090357d8553")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
 	(gr_text "VBus"
 		(at 216.2 53.8 90)
 		(layer "F.SilkS" knockout)
@@ -13904,6 +13995,32 @@
 				(bold yes)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "TOP"
+		(at 227.1 260.1 0)
+		(layer "F.SilkS")
+		(uuid "740ccb06-57f3-412a-9276-a90b62edcf9a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "BOTTOM"
+		(at 227.1 102.6 0)
+		(layer "F.SilkS")
+		(uuid "7f1ac352-8ecd-4fc3-82c7-5ed2add10ef3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
 		)
 	)
 	(gr_text "+5V0"
@@ -13932,6 +14049,19 @@
 			(justify left top)
 		)
 	)
+	(gr_text "TOP"
+		(at 227.1 56.1 0)
+		(layer "F.SilkS")
+		(uuid "913851c9-f082-448e-bc46-9db4a8f65f28")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
 	(gr_text "Connector 7"
 		(at 144.5 238.5 0)
 		(layer "F.SilkS")
@@ -13943,6 +14073,19 @@
 				(bold yes)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "BOTTOM"
+		(at 227.1 170.6 0)
+		(layer "F.SilkS")
+		(uuid "afbe1c6f-0c25-4035-adb1-3372b52f6bd3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
 		)
 	)
 	(gr_text "GND"
@@ -13971,7 +14114,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "↑ TOP ↑\n\nFRONT"
+	(gr_text "↑ BACKPLANE TOP ↑\n\nFRONT"
 		(at 185.7 38.9 0)
 		(layer "F.SilkS")
 		(uuid "be858812-68f5-4ce1-b7e3-fe4e21a176e1")
@@ -13981,6 +14124,19 @@
 				(thickness 0.5)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "BOTTOM"
+		(at 227.1 238.6 0)
+		(layer "F.SilkS")
+		(uuid "c036a120-ba77-401a-b6d9-1b9d75f95215")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
 		)
 	)
 	(gr_text "Connector 6"
@@ -13994,6 +14150,32 @@
 				(bold yes)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "TOP"
+		(at 227.1 158.1 0)
+		(layer "F.SilkS")
+		(uuid "d40f9816-8303-4de0-b4ec-afd373600a31")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "TOP"
+		(at 227.1 124.1 0)
+		(layer "F.SilkS")
+		(uuid "e10e69b1-d25d-4be6-903b-70b298a704e9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
 		)
 	)
 	(gr_text "Connector 8"
@@ -14035,7 +14217,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "↑ TOP ↑\n\nBACK"
+	(gr_text "↑ BACKPLANE TOP ↑\n\nBACK"
 		(at 185.709793 38.890988 0)
 		(layer "B.SilkS")
 		(uuid "3ff209d6-fdcf-4529-a483-508e43e0f22b")
