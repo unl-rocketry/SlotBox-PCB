@@ -6,4 +6,6 @@
   (lib (name "SE2-30")(type "KiCad")(uri "${KIPRJMOD}/../SE2-30/SE2-30.pretty")(options "")(descr ""))
   (lib (name "SS-5")(type "KiCad")(uri "${KIPRJMOD}/SS-5/footprints.pretty")(options "")(descr ""))
   (lib (name "XT-Conn")(type "KiCad")(uri "${KIPRJMOD}/Connector_AMASS.pretty")(options "")(descr ""))
+  (lib (name "SRR1208-100ML")(type "KiCad")(uri "${KIPRJMOD}/SRR1208-100ML/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/IHLP3232DZER1R0M01/footprints.pretty")(options "")(descr ""))
 )
