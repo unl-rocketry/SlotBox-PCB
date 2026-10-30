@@ -41,3 +41,6 @@ fp-info-cache
 
 # History file
 .history
+
+# MacOS stuff
+.DS_Store
